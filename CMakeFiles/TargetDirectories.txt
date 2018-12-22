@@ -1,0 +1,8 @@
+C:/Users/cl0udman/workspace/mandelbrotSetViewer/CMakeFiles/Mandelbrot.dir
+C:/Users/cl0udman/workspace/mandelbrotSetViewer/CMakeFiles/edit_cache.dir
+C:/Users/cl0udman/workspace/mandelbrotSetViewer/CMakeFiles/rebuild_cache.dir
+C:/Users/cl0udman/workspace/mandelbrotSetViewer/lib/glfw/CMakeFiles/edit_cache.dir
+C:/Users/cl0udman/workspace/mandelbrotSetViewer/lib/glfw/CMakeFiles/rebuild_cache.dir
+C:/Users/cl0udman/workspace/mandelbrotSetViewer/lib/glfw/src/CMakeFiles/rebuild_cache.dir
+C:/Users/cl0udman/workspace/mandelbrotSetViewer/lib/glfw/src/CMakeFiles/glfw.dir
+C:/Users/cl0udman/workspace/mandelbrotSetViewer/lib/glfw/src/CMakeFiles/edit_cache.dir
