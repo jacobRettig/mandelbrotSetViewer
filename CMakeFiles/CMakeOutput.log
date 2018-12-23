@@ -745,3 +745,72 @@ mingw32-make.exe[1]: Leaving directory 'C:/Users/cl0udman/workspace/mandelbrotSe
 
 Source file was:
 int main(void) { return 0; }
+Determining if the include file dinput.h exists passed with the following output:
+Change Dir: C:/Users/cl0udman/workspace/mandelbrotSetViewer/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_81ac7.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 12/22/2018 5:05:28 PM.
+Project "C:\Users\cl0udman\workspace\mandelbrotSetViewer\CMakeFiles\CMakeTmp\cmTC_81ac7.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_81ac7.dir\Debug\".
+  Creating directory "C:\Users\cl0udman\workspace\mandelbrotSetViewer\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_81ac7.dir\Debug\cmTC_81ac7.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_81ac7.dir\Debug\cmTC_81ac7.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /W1 /WX- /O2 /Oy- /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_81ac7.dir\Debug\\" /Fd"cmTC_81ac7.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue  -g C:\Users\cl0udman\workspace\mandelbrotSetViewer\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /W1 /WX- /O2 /Oy- /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_81ac7.dir\Debug\\" /Fd"cmTC_81ac7.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue  -g C:\Users\cl0udman\workspace\mandelbrotSetViewer\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  
+cl : Command line warning D9002: ignoring unknown option '-g' [C:\Users\cl0udman\workspace\mandelbrotSetViewer\CMakeFiles\CMakeTmp\cmTC_81ac7.vcxproj]
+  CheckIncludeFile.c
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\cl0udman\workspace\mandelbrotSetViewer\CMakeFiles\CMakeTmp\Debug\cmTC_81ac7.exe" /INCREMENTAL /NOLOGO "-lkernel32" "-luser32" "-lgdi32" "-lwinspool" "-lshell32" "-lole32" "-loleaut32" "-luuid" "-lcomdlg32" "-ladvapi32" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/Users/cl0udman/workspace/mandelbrotSetViewer/CMakeFiles/CMakeTmp/Debug/cmTC_81ac7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/cl0udman/workspace/mandelbrotSetViewer/CMakeFiles/CMakeTmp/Debug/libcmTC_81ac7.dll.a" /MACHINE:X86 /SAFESEH cmTC_81ac7.dir\Debug\CheckIncludeFile.obj
+LINK : warning LNK4044: unrecognized option '/lkernel32'; ignored [C:\Users\cl0udman\workspace\mandelbrotSetViewer\CMakeFiles\CMakeTmp\cmTC_81ac7.vcxproj]
+LINK : warning LNK4044: unrecognized option '/luser32'; ignored [C:\Users\cl0udman\workspace\mandelbrotSetViewer\CMakeFiles\CMakeTmp\cmTC_81ac7.vcxproj]
+LINK : warning LNK4044: unrecognized option '/lgdi32'; ignored [C:\Users\cl0udman\workspace\mandelbrotSetViewer\CMakeFiles\CMakeTmp\cmTC_81ac7.vcxproj]
+LINK : warning LNK4044: unrecognized option '/lwinspool'; ignored [C:\Users\cl0udman\workspace\mandelbrotSetViewer\CMakeFiles\CMakeTmp\cmTC_81ac7.vcxproj]
+LINK : warning LNK4044: unrecognized option '/lshell32'; ignored [C:\Users\cl0udman\workspace\mandelbrotSetViewer\CMakeFiles\CMakeTmp\cmTC_81ac7.vcxproj]
+LINK : warning LNK4044: unrecognized option '/lole32'; ignored [C:\Users\cl0udman\workspace\mandelbrotSetViewer\CMakeFiles\CMakeTmp\cmTC_81ac7.vcxproj]
+LINK : warning LNK4044: unrecognized option '/loleaut32'; ignored [C:\Users\cl0udman\workspace\mandelbrotSetViewer\CMakeFiles\CMakeTmp\cmTC_81ac7.vcxproj]
+LINK : warning LNK4044: unrecognized option '/luuid'; ignored [C:\Users\cl0udman\workspace\mandelbrotSetViewer\CMakeFiles\CMakeTmp\cmTC_81ac7.vcxproj]
+LINK : warning LNK4044: unrecognized option '/lcomdlg32'; ignored [C:\Users\cl0udman\workspace\mandelbrotSetViewer\CMakeFiles\CMakeTmp\cmTC_81ac7.vcxproj]
+LINK : warning LNK4044: unrecognized option '/ladvapi32'; ignored [C:\Users\cl0udman\workspace\mandelbrotSetViewer\CMakeFiles\CMakeTmp\cmTC_81ac7.vcxproj]
+  cmTC_81ac7.vcxproj -> C:\Users\cl0udman\workspace\mandelbrotSetViewer\CMakeFiles\CMakeTmp\Debug\cmTC_81ac7.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_81ac7.dir\Debug\cmTC_81ac7.tlog\unsuccessfulbuild".
+  Touching "cmTC_81ac7.dir\Debug\cmTC_81ac7.tlog\cmTC_81ac7.lastbuildstate".
+Done Building Project "C:\Users\cl0udman\workspace\mandelbrotSetViewer\CMakeFiles\CMakeTmp\cmTC_81ac7.vcxproj" (default targets).
+
+Build succeeded.
+
+"C:\Users\cl0udman\workspace\mandelbrotSetViewer\CMakeFiles\CMakeTmp\cmTC_81ac7.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  cl : Command line warning D9002: ignoring unknown option '-g' [C:\Users\cl0udman\workspace\mandelbrotSetViewer\CMakeFiles\CMakeTmp\cmTC_81ac7.vcxproj]
+
+
+"C:\Users\cl0udman\workspace\mandelbrotSetViewer\CMakeFiles\CMakeTmp\cmTC_81ac7.vcxproj" (default target) (1) ->
+(Link target) -> 
+  LINK : warning LNK4044: unrecognized option '/lkernel32'; ignored [C:\Users\cl0udman\workspace\mandelbrotSetViewer\CMakeFiles\CMakeTmp\cmTC_81ac7.vcxproj]
+  LINK : warning LNK4044: unrecognized option '/luser32'; ignored [C:\Users\cl0udman\workspace\mandelbrotSetViewer\CMakeFiles\CMakeTmp\cmTC_81ac7.vcxproj]
+  LINK : warning LNK4044: unrecognized option '/lgdi32'; ignored [C:\Users\cl0udman\workspace\mandelbrotSetViewer\CMakeFiles\CMakeTmp\cmTC_81ac7.vcxproj]
+  LINK : warning LNK4044: unrecognized option '/lwinspool'; ignored [C:\Users\cl0udman\workspace\mandelbrotSetViewer\CMakeFiles\CMakeTmp\cmTC_81ac7.vcxproj]
+  LINK : warning LNK4044: unrecognized option '/lshell32'; ignored [C:\Users\cl0udman\workspace\mandelbrotSetViewer\CMakeFiles\CMakeTmp\cmTC_81ac7.vcxproj]
+  LINK : warning LNK4044: unrecognized option '/lole32'; ignored [C:\Users\cl0udman\workspace\mandelbrotSetViewer\CMakeFiles\CMakeTmp\cmTC_81ac7.vcxproj]
+  LINK : warning LNK4044: unrecognized option '/loleaut32'; ignored [C:\Users\cl0udman\workspace\mandelbrotSetViewer\CMakeFiles\CMakeTmp\cmTC_81ac7.vcxproj]
+  LINK : warning LNK4044: unrecognized option '/luuid'; ignored [C:\Users\cl0udman\workspace\mandelbrotSetViewer\CMakeFiles\CMakeTmp\cmTC_81ac7.vcxproj]
+  LINK : warning LNK4044: unrecognized option '/lcomdlg32'; ignored [C:\Users\cl0udman\workspace\mandelbrotSetViewer\CMakeFiles\CMakeTmp\cmTC_81ac7.vcxproj]
+  LINK : warning LNK4044: unrecognized option '/ladvapi32'; ignored [C:\Users\cl0udman\workspace\mandelbrotSetViewer\CMakeFiles\CMakeTmp\cmTC_81ac7.vcxproj]
+
+    11 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:06.96
+
+
